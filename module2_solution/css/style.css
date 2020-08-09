@@ -44,3 +44,24 @@ span {
 #title_sushi {
     background-color: tan;
 }
+
+@media (min-width: 1230px) {
+    section {
+        width: 32.5%;
+    }
+}
+
+@media (min-width: 1030px) and (max-width: 1229px) {
+    #sec_chi, #sec_beef {
+        width: 49%;
+    }
+    #sec_sushi {
+        width: 99%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1029px) {
+    section {
+        width: 99%;
+    }
+}
